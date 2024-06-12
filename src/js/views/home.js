@@ -1,7 +1,7 @@
 import React, { useContext, useEffect } from "react";
 import { Context } from "../store/appContext";
 
-import userImagen from "../../img/user_gato.jpg";
+import userImagen from "../../img/balon.jpg";
 
 import "../../styles/home.css";
 
@@ -61,8 +61,8 @@ export const Home = () => {
 					<p>If you delete this thing the entire universe will go down!</p>
 				</div>
 				<div className="modal-footer">
-					<button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Oh no!</button>
-					<button type="button" className="btn btn-primary" data-bs-dismiss="modal" onClick={deleteContact} >Yes baby</button>
+					<button type="button" className="btn btn-secondary" data-bs-dismiss="modal">NO!!</button>
+					<button type="button" className="btn btn-primary" data-bs-dismiss="modal" onClick={deleteContact} >Yes!!</button>
 				</div>
 			</div>
 		</div>

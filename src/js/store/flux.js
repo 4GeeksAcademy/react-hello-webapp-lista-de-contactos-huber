@@ -54,7 +54,7 @@ const getState = ({ getStore, getActions, setStore }) => {
 				let store = getStore();
 				setStore({...store, error:null});
 				try{
-					const res = await fetch('https://playground.4geeks.com/contact/agendas/kath/huber0018', {
+					const res = await fetch('https://playground.4geeks.com/contact/agendas/huber0018/contacts', {
 						method:'POST',
 						body: JSON.stringify(contact),
 						headers: {'content-type': 'application/json'}
