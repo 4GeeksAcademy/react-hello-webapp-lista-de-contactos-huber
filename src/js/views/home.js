@@ -17,7 +17,7 @@ export const Home = () => {
 		<div className="row">
 			<div className="col">
 				<div className="my-3 text-end ">
-					<a type="button" className="btn btn-success" href="/contact-add"> Add new contacto</a>
+					<a type="button" className="btn btn-success" href="/contact-add"> Add new contact</a>
 				</div>
 				<div>
 					{ store.contacts && store.contacts.length > 0 && store.contacts.map(contact => (<div key={contact.id} className="card">
